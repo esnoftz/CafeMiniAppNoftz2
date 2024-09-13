@@ -8,18 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var food: [String] = ["Cookies", "Potatoes", "Corn", "Strawberries", "Broccoli"]
     
     var prices: [Double] = [12.99, 3.67, 1.45, 10.45, 4.23]
+    
+    var cart: [String: Double] = [:]
     
     @IBOutlet weak var menuTextView: UITextView!
     
     @IBOutlet weak var orderingInputTextField: UITextField!
     
+    @IBOutlet weak var foodNameInput: UITextField!
+    
+    @IBOutlet weak var foodPriceInput: UITextField!
+    
     @IBOutlet weak var orderingSubmitButton: UIButton!
     
     @IBOutlet weak var yourCartTextView: UITextView!
+    
+    @IBOutlet weak var errorLabel: UILabel!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +39,7 @@ class ViewController: UIViewController {
             menuTextView.text += "\n\(food[i]) : $\(prices[i])"
         }
         
-    
+        
         
         //resignfirstresponder gets rid of keyboard
         
@@ -38,14 +49,19 @@ class ViewController: UIViewController {
     
     @IBAction func orderingSubmitAction(_ sender: UIButton) {
         
-        // "" is automatically put into order when text field is empty
-        var order = orderingInputTextField.text!
+        errorLabel.text = ""
         
-        if order != "" {
-            yourCartTextView.text += "\n\(order)"
+        // "" is automatically put into order when text field is empty
+        var foodName = foodNameInput.text!
+        var foodPrice = foodPriceInput.text!
+        
+        if foodName != "" || foodPrice != ""{
+            yourCartTextView.text += "\n\(foodName) "
         } else {
-            yourCartTextView.text += "\nError!"
+            errorLabel.text = "Error!"
         }
+        
+        foodNameInput.text = ""
         
     }
     
