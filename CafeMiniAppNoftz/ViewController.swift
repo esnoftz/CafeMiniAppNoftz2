@@ -17,17 +17,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var menuTextView: UITextView!
     
-    @IBOutlet weak var orderingInputTextField: UITextField!
     
     @IBOutlet weak var foodNameInput: UITextField!
     
-    @IBOutlet weak var foodPriceInput: UITextField!
+    @IBOutlet weak var foodQuantityInput: UITextField!
     
     @IBOutlet weak var orderingSubmitButton: UIButton!
     
-    @IBOutlet weak var yourCartTextView: UITextView!
     
-    @IBOutlet weak var errorLabel: UILabel!
+
     
     
     
@@ -49,19 +47,19 @@ class ViewController: UIViewController {
     
     @IBAction func orderingSubmitAction(_ sender: UIButton) {
         
-        errorLabel.text = ""
-        
-        // "" is automatically put into order when text field is empty
-        var foodName = foodNameInput.text!
-        var foodPrice = foodPriceInput.text!
-        
-        if foodName != "" || foodPrice != ""{
-            yourCartTextView.text += "\n\(foodName) "
-        } else {
-            errorLabel.text = "Error!"
-        }
-        
-        foodNameInput.text = ""
+//        errorLabel.text = ""
+//        
+//        // "" is automatically put into order when text field is empty
+//        var foodName = foodNameInput.text!
+//        var foodPrice = foodPriceInput.text!
+//
+//        if foodName != "" || foodPrice != ""{
+//            yourCartTextView.text += "\n\(foodName) "
+//        } else {
+//            errorLabel.text = "Error!"
+//        }
+//        
+//        foodNameInput.text = ""
         
     }
     

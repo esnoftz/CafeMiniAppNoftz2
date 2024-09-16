@@ -14,6 +14,8 @@
 		042C1FF72C91BFF80035A709 /* CafeMiniAppNoftz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 042C1FF52C91BFF80035A709 /* CafeMiniAppNoftz.xcdatamodeld */; };
 		042C1FF92C91BFFA0035A709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C1FF82C91BFFA0035A709 /* Assets.xcassets */; };
 		042C1FFC2C91BFFA0035A709 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 042C1FFB2C91BFFA0035A709 /* Base */; };
+		04C8554F2C98685C00393B28 /* NewVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8554E2C98685C00393B28 /* NewVCViewController.swift */; };
+		04C855522C9868E200393B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C1FF22C91BFF80035A709 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		042C1FF82C91BFFA0035A709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042C1FFB2C91BFFA0035A709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042C1FFD2C91BFFA0035A709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C8554E2C98685C00393B28 /* NewVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				042C1FEE2C91BFF80035A709 /* SceneDelegate.swift */,
 				042C1FF02C91BFF80035A709 /* ViewController.swift */,
 				042C1FF22C91BFF80035A709 /* Main.storyboard */,
+				04C8554E2C98685C00393B28 /* NewVCViewController.swift */,
 				042C1FF82C91BFFA0035A709 /* Assets.xcassets */,
 				042C1FFA2C91BFFA0035A709 /* LaunchScreen.storyboard */,
 				042C1FFD2C91BFFA0035A709 /* Info.plist */,
@@ -131,6 +135,7 @@
 				042C1FF92C91BFFA0035A709 /* Assets.xcassets in Resources */,
 				042C1FFC2C91BFFA0035A709 /* Base in Resources */,
 				042C1FF42C91BFF80035A709 /* Base in Resources */,
+				04C855522C9868E200393B28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +150,7 @@
 				042C1FED2C91BFF80035A709 /* AppDelegate.swift in Sources */,
 				042C1FEF2C91BFF80035A709 /* SceneDelegate.swift in Sources */,
 				042C1FF72C91BFF80035A709 /* CafeMiniAppNoftz.xcdatamodeld in Sources */,
+				04C8554F2C98685C00393B28 /* NewVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; configuration.title = "Add to Cart"; ObjectID = "3Ab-o7-IDd"; */
+"3Ab-o7-IDd.configuration.title" = "Add to Cart";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3Ab-o7-IDd"; */
+"3Ab-o7-IDd.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Food name..."; ObjectID = "78K-hk-98e"; */
+"78K-hk-98e.placeholder" = "Food name...";
+
+/* Class = "UITextView"; text = "Total Price: $0.00"; ObjectID = "7Or-Yf-xfG"; */
+"7Or-Yf-xfG.text" = "Total Price: $0.00";
+
+/* Class = "UITextView"; text = "MENU"; ObjectID = "LpV-6t-0vU"; */
+"LpV-6t-0vU.text" = "MENU";
+
+/* Class = "UILabel"; text = "The Awesome Cafe!"; ObjectID = "nRa-SK-QdQ"; */
+"nRa-SK-QdQ.text" = "The Awesome Cafe!";
+
+/* Class = "UITextView"; text = "YOUR CART"; ObjectID = "qf6-6b-d9v"; */
+"qf6-6b-d9v.text" = "YOUR CART";
+
+/* Class = "UITextField"; placeholder = "Food price..."; ObjectID = "uLT-On-DeY"; */
+"uLT-On-DeY.placeholder" = "Food price...";
